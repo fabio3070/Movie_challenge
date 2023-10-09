@@ -10,12 +10,14 @@ A tabela foi construida pelo TanStack. (https://tanstack.com/table/v8)
 ## Informação sobre as pastas
 
     * assets: Contém ficheiros como imagens, videos ou outro tipo de ficheiros.
-    * components: Contém componentes sem lógica de negócio, ou seja, são componentes que podem ser reutilizadas em toda a aplicação.
+    * api: Contém ficheiros com criação de chamadas a API's requesitadas.
+    * components: Contém componentes sem lógica de negócio, ou seja, são componentes que podem ser reutilizadas em toda a aplicação e os seus ficheiros de estilização.
     * hooks: Ficheiros de custom hooks.
     * pages: Páginas da aplicação.
-    * structure: Estrutura inicial ou seja, Header, Main e Footer.
     * styles: Ficheiros de estilo para serem reutilizados na aplicação.
     * theme: Configurações do tema e palete de cores.
+    * utils: Ficheiros de propriedade para a abstração do projeto.
+
 
 ## Começar a webapp
     * correr npm install para instalar os node_modules
